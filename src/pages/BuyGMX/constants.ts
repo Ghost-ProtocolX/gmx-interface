@@ -14,7 +14,7 @@ type Exchange = {
 
 export const EXTERNAL_LINKS = {
   [ARBITRUM]: {
-    bungee: `https://multitx.bungee.exchange/?toChainId=42161&toTokenAddress=${ARBITRUM_GMX}`,
+    bungee: `https://multitx.bungee.exchange/?toChainId=56&toTokenAddress=${ARBITRUM_GMX}`,
     banxa: "https://gmx.banxa.com/?coinType=ETH&fiatType=USD&fiatAmount=500&blockchain=arbitrum",
     o3: "https://o3swap.com/",
     networkWebsite: "https://arbitrum.io/",
@@ -123,7 +123,7 @@ export const DECENTRALISED_AGGRIGATORS: Exchange[] = [
     name: "1inch",
     icon: "ic_1inch.svg",
     links: {
-      [ARBITRUM]: "https://app.1inch.io/#/42161/unified/swap/ETH/GMX",
+      [ARBITRUM]: "https://app.1inch.io/#/56/unified/swap/ETH/GMX",
       [AVALANCHE]: "https://app.1inch.io/#/43114/unified/swap/AVAX/GMX",
     },
     networks: [ARBITRUM, AVALANCHE],
@@ -132,7 +132,7 @@ export const DECENTRALISED_AGGRIGATORS: Exchange[] = [
     name: "Matcha",
     icon: "ic_matcha.png",
     links: {
-      [ARBITRUM]: `https://www.matcha.xyz/markets/42161/${ARBITRUM_GMX}`,
+      [ARBITRUM]: `https://www.matcha.xyz/markets/56/${ARBITRUM_GMX}`,
       [AVALANCHE]: `https://www.matcha.xyz/markets/43114/${AVALANCHE_GMX}`,
     },
     networks: [ARBITRUM, AVALANCHE],

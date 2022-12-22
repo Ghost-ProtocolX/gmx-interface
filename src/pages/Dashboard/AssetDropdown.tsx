@@ -26,7 +26,7 @@ function AssetDropdown({ assetSymbol, assetInfo }: Props) {
   let { coingecko, arbitrum, avalanche, reserves } = ICONLINKS[chainId][assetSymbol] || {};
   const unavailableTokenSymbols =
     {
-      42161: ["ETH"],
+      56: ["ETH"],
       43114: ["AVAX"],
     }[chainId] || [];
 

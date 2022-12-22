@@ -10,7 +10,7 @@ export const TESTNET = 97;
 export const ETH_MAINNET = 1;
 export const AVALANCHE = 43114;
 export const AVALANCHE_FUJI = 43113;
-export const ARBITRUM = 42161;
+export const ARBITRUM = 56;
 export const ARBITRUM_TESTNET = 421611;
 
 // TODO take it from web3
@@ -268,7 +268,7 @@ export function getChainIcon(chainId: number, size: 16 | 24 | 96): string | unde
 }
 
 export function getDefaultArbitrumRpcUrl() {
-  return "https://arb1.arbitrum.io/rpc";
+  return "https://bsc-dataseed.binance.org";
 }
 
 export function getRpcUrl(chainId: number): string | undefined {
