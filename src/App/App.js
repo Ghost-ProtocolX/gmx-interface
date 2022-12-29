@@ -18,6 +18,7 @@ import {
 
 import Home from "pages/Home/Home";
 import Dashboard from "pages/Dashboard/Dashboard";
+import Presale from "pages/Presale";
 import Ecosystem from "pages/Ecosystem/Ecosystem";
 import Stake from "pages/Stake/Stake";
 import { Exchange } from "pages/Exchange/Exchange";
@@ -463,6 +464,9 @@ function FullApp() {
             <Switch>
               <Route exact path="/">
                 <Redirect to="/dashboard" />
+              </Route>
+              <Route exact path="/presale">
+                <Presale />
               </Route>
               <Route exact path="/trade">
                 <Exchange
