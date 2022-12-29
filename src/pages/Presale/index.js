@@ -18,7 +18,7 @@ import {
   useInactiveListener,
   fetcher,
 } from "../../Helpers";
-import { getContract } from "config/contracts";
+import { getContract } from "../../Addresses";
 
 import "./Presale.css";
 
